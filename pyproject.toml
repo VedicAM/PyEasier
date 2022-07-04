@@ -3,14 +3,13 @@ requires = ["py2app>=0.2"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "PyEasier"
+name = "PyEasiest"
 version = "0.0.1"
 authors = [
   { name="Yellow Yams(Vedic Mukherjee)", email="yellowyams5@gmail.com" },
 ]
 description = "Making your python experience better =D"
 readme = "README.md"
-license = { file="LICENSE" }
 requires-python = ">=3.7"
 classifiers = [
     "Programming Language :: Python :: 3",
@@ -19,5 +18,5 @@ classifiers = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/pypa/sampleproject"
-"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
+"Homepage" = "https://github.com/YellowBoyYams/PyEasier"
+"Bug Tracker" = "https://github.com/YellowBoyYams/PyEasier/issues"
