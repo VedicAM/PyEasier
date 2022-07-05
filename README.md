@@ -20,7 +20,7 @@ function will choose a random number in that range.
 print(RanNum(0, 100))
 ``<br/>
 Console Output:<br/>
-``77``<br>
+``77``<br><br>
 2. RanFloat(low, high)<br/>
 This function helps you get a random decimal number.
 The low and high parameters are there for you to put
@@ -30,14 +30,14 @@ inside that range.<br>
 print(RanFloat(0, 100))
 ``<br/>
 Console Output:<br/>
-``42.012440655242365``<br>
+``42.012440655242365``<br><br>
 3. cap(num, decimalPlaces)<br/>
 This function helps you make a decimal number shorter.<br>
 ``
 print(cap(42.012440655242365, 2))
 ``<br/>
 Console Output:<br/>
-``42.01``<br>
+``42.01``<br><br>
 4. package(module)<br>
 This function helps you run pip commands through code.<br>
 ``
@@ -55,7 +55,7 @@ Requirement already satisfied: pyinstaller-hooks-contrib>=2021.4 in ./venv/lib/p
 Requirement already satisfied: setuptools in ./venv/lib/python3.9/site-packages (from pyinstaller->PyEasier) (60.2.0)
 Installing collected packages: PyEasier
 Successfully installed PyEasier
-``<br>
+``<br><br>
 5. runCmd(cmd)<br>
 This function allows you to run terminal commands through code instead of you having to go to the terminal/command prompt and running the command there.<br>
 ``
@@ -72,14 +72,14 @@ Requirement already satisfied: altgraph>=0.16 in ./venv/lib/python3.9/site-packa
 Requirement already satisfied: pyinstaller-hooks-contrib>=2021.4 in ./venv/lib/python3.9/site-packages (from pyinstaller->PyEasier) (2022.7)
 Requirement already satisfied: setuptools in ./venv/lib/python3.9/site-packages (from pyinstaller->PyEasier) (60.2.0)
 Installing collected packages: PyEasier
-Successfully installed PyEasier``<br>
+Successfully installed PyEasier``<br><br>
 6. osName()
 This function allows you to get the os name of the user.<br>
 ``
 osName()
 ``<br/>
 Console Output:<br/>
-``Darwin``<br>
+``Darwin``<br><br>
 7. py2dmg(fileName, iconFile(optional))
 This function allows you to package your code into a dmg file for Mac users.<br>
 ``
@@ -88,7 +88,7 @@ py2dmg("myCoolGame.py", iconFile = "rick.icn")
 Console Output:<br/>
 ``
 The console output is too long to put here
-``<br>
+``<br><br>
 8. py2exe(filename, console(Optional), iconFileName(Optional))
 This function maybe buggy please let me know if it has bugs because I am on a Mac and can't test this out.
 This function helps you with packaging your code into an exe file for Window Users. If you want a gui program you don't need to set 
@@ -99,8 +99,7 @@ py2exe("myCoolGame.py", console = False, iconFile = "rick.icn")
 ``<br/>
 Console Output:
 <br/>
-``The console output is too long to put here too``<br>
-
+``The console output is too long to put here too``<br><br>
 
 9. write(file, text)
 This function helps you write into files.<br>
@@ -113,41 +112,39 @@ Console Output:
 <br/>
 ``
 Nothing to put here
-``<br>
+``<br><br>
 10. read(file, mode(Optional))
 This function helps you read files. By default, the mode is set to t but if you need to read images and media files set the mode to b.<br>
 ``
-write(nice.py, "Hi")<br>
-r = read(nice.py, mode = "t")<br>
-print(r[0])<br>
+write(nice.py, "Hi")``<br>``
+r = read(nice.py, mode = "t")``<br>``
+print(r[0])
 ``<br>
 Console Output:<br/>
 ``
 Hi
-``<br>
+``<br><br>
 11. append(filename, text)
 This function helps you append text to a file.<br>
 ``
-write(nice.py, "H")<br>
-append(nice.py, "e")<br>
-r = read(nice.py, mode = "t")<br>
+write(nice.py, "H")``<br>``
+append(nice.py, "e")``<br>``
+r = read(nice.py, mode = "t")``<br>``
 print(r[0])
 ``<br>
 Console Output:<br>
 ``
 He
-``<br>
+``<br><br>
 12. create(filename)
 This function helps you create a new file in your directory.<br>
 ``
-create("nice.py")<br>
-write(nice.py, "H")<br>
-append(nice.py, "e")<br>
-r = read(nice.py, mode = "t")<br>
-print(r[0])
-``<br>
+create("nice.py")``<br>``
+write(nice.py, "H")``<br>``
+append(nice.py, "e")``<br>``
+r = read(nice.py, mode = "t")``<br>``
+print(r[0])``
+<br>
 Console Output:
 <br>
-``
-He
-``
+``He``<br><br>
